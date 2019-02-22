@@ -6,7 +6,7 @@ public class Strings {
 		
 		System.out.println("cmonBruh");
 		
-		
+		System.out.println("bruh");
 		
 		
 		

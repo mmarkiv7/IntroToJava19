@@ -5,7 +5,7 @@ public class Strings {
 		
 
 		
-		System.out.println("I \"love\"  \nbooks");
+		System.out.println("anime girls > real girls");
 		
 		
 		

@@ -6,11 +6,11 @@ public class Strings {
 	//1
 	System.out.println("a\\b\\c\\\"d\"");
 	//2
-	System.out.println("\\t is a tab, \\n is a new line");
+	System.out.println("\\t is a tab, \\n is a new line. \\\" prints a \"quote\"");
 	//3
-	System.out.println("\"line one\"\n\\line \t \\two\\");
+	System.out.println("\"line one\"\n\\line\t two\\");
 	//4
-	System.out.println("\\\\denotes a single line comment\n\\*denotes a multiline comment*\\*");
+	System.out.println("\\\\denotes a single comment\n\\*denotes a multiline comment*\\");
 	//5
 	System.out.println("\"\\\\\"\\\"\"\n\t\\\"\\\"\"\\\n\\\"\"\"\"\\");	
 	//6	
@@ -18,16 +18,14 @@ public class Strings {
 	System.out.println(bday.toUpperCase());
 	//7
 	String party = "it's my party";
-	String party2 = party.substring(0, 7);
-	String partySmall = party.substring(8, 13);
-	System.out.println(party2  + partySmall.toUpperCase());
+	System.out.println(party.substring(0,8)+"\""+party.substring(8,13).toUpperCase()+"\"");
 	//8
 	String whose = "\"whose a whats it\"";
 	System.out.println(whose.substring(1,6).toUpperCase()+"\n"+whose.substring(15,16)+whose.substring(4,5)+" "+whose.substring(9,13).toUpperCase());
 	//9
 	String wind = "Every Way The Wind Blows";
 	System.out.println(wind.substring(0,5).toLowerCase()+" "+wind.substring(6,9).toUpperCase()+" "+wind.substring(10,13).toLowerCase()+
-	" \\"+wind.substring(14,18).toUpperCase()+"\\ "+wind.substring(19,24).toLowerCase()+" 4");
+	" \\"+wind.substring(14,18).toUpperCase()+"\\ "+wind.substring(19,24).toLowerCase()+ " " + wind.substring(14, 18).length());
 	//10
 	String peepee = "Peter Piper Picked A Peck Of Pickled Peppers";
 	System.out.println(peepee.substring(19,20)+" "+peepee.substring(21,36).toLowerCase()+"\t"+peepee.substring(37).toLowerCase()+

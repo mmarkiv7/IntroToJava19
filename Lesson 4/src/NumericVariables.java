@@ -27,10 +27,25 @@ public class NumericVariables {
 			b/=a;
 			System.out.println(b+1);
 			//6
-			int v = 20;
+			int v = 60;
 			System.out.println(v-=30);
 			//7
+			System.out.println(v-30);
+			//8
+			int q = 40;
+			int r = 4;
+			System.out.println(2+8 * q / 2 - p);
+			//9
+			int sd = 12;
+			int x = 4;
+			System.out.println(sd%(++x));
+			System.out.println(x);
+			//10
 			
+			//11
+			
+			
+
 			
 			
 			

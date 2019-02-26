@@ -22,18 +22,27 @@ public class Strings {
 	String partySmall = party.substring(8, 13);
 	System.out.println(party2  + partySmall.toUpperCase());
 	//8
-	String whose = "whose a whats it";
+	String whose = "\"whose a whats it\"";
+	System.out.println(whose.substring(1,6).toUpperCase()+"\n"+whose.substring(15,16)+whose.substring(4,5)+" "+whose.substring(9,13).toUpperCase());
 	//9
-	
+	String wind = "Every Way The Wind Blows";
+	System.out.println(wind.substring(0,5).toLowerCase()+" "+wind.substring(6,9).toUpperCase()+" "+wind.substring(10,13).toLowerCase()+
+	" \\"+wind.substring(14,18).toUpperCase()+"\\ "+wind.substring(19,24).toLowerCase()+" 4");
 	//10
-	
+	String peepee = "Peter Piper Picked A Peck Of Pickled Peppers";
+	System.out.println(peepee.substring(19,20)+" "+peepee.substring(21,36).toLowerCase()+"\t"+peepee.substring(37).toLowerCase()+
+	" "+peepee.substring(0,11)+"\t"+peepee.substring(12,18).toLowerCase());
 	//11
-	String subs = "if SUBSTRING is used";
-	
-	
+	String wordd = "word has 4 letters";
+	System.out.println("\""+wordd.substring(9,10)+"\" "+wordd.substring(11)+" "+wordd.substring(5,8)+" \""+wordd.substring(9,18).length()+"\" "+wordd.substring(11));
 	//12
-	
+	String subs = "if SUBSTRING is used";
+	System.out.println(subs.substring(3,15).toLowerCase()+" "+subs.substring(3,12).length());
 	//13
+	String names = "Jim, Jacky, Johnny, Jill";
+	System.out.println(names.substring(0,3).toLowerCase()+"\\"+names.substring(0,3).length()+"\n"+names.substring(5,10).toUpperCase()+"\\"+
+	names.substring(5,10).length()+"\n"+names.substring(12,18).toLowerCase()+"\\"+names.substring(12,18).length()+"\n"+
+	names.substring(20).toUpperCase()+"\\"+names.substring(20).length());
 	
 	
 	

@@ -6,35 +6,36 @@ public class NumericVariables {
 		//1
 			int h = 103;
 			int p = 5;
-			System.out.println(++h + p);
-			System.out.println(h);
+			System.out.println("1 = " + ++h + p);
+			System.out.println("1 = " +h);
 		//2
 			int j = 1;
 			System.out.println(j + 1);
 			System.out.println(++j);
-			System.out.println(j +=1); 
+			System.out.println(j+=1); 
+		
 		//3
 			double def;
 			double f = 1992.37;
 			def = f;
-			System.out.println(def);
+			System.out.println("3 = " +def);
 		//4
 			int zulu = 20;
-			System.out.println(zulu - 1);
+			System.out.println(+zulu - 1);
 		//5
 			int a = 100;
 			int b = 200;
 			b/=a;
-			System.out.println(b+1);
+			System.out.println("5 = " +b+1);
 		//6
 			int v = 60;
 			v-=30;
 		//7
 			v = v-30;
 		//8
-			int q = 40;
-			int r = 4;
-			System.out.println(2+8 * q / 2 - p);
+			int p8 = 40;
+			int q8 = 4;
+			System.out.println(2 + 8 * q8 / 2 - p8);
 		//9
 			int sd = 12;
 			int x = 4;
@@ -43,7 +44,7 @@ public class NumericVariables {
 		//10
 			//would not compile
 		//11
-			double m11, b11, f11; m11 = b11 = f11 = 3.14;
+			double m11, b11, f11 = 3.14;
 		//12
 			int x12, y12, z12;
 		//13

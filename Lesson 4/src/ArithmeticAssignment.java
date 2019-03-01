@@ -20,6 +20,12 @@ public class ArithmeticAssignment {
 		int p = 2246;
 		
 		int ans1 = a + b* (c + d - e) - f +g;
+		int ans2 = (h + i + j) / f + k;
+		int ans3 = l * m * n + p;
+		
+		System.out.println(a + " + " + b + " * " + "("+c  +" + "+ d +" - "+ e+")" + " - "+  f+ " + " +g + " = " + ans1);
+		System.out.println("(" +h +" + "+ i +" + "+ j + ")" + " / " + f +" + "+ k + " = " + ans2);
+		System.out.println(l +" * "+ m +" * "+ n +" + "+ p + " = " + ans3);
 		
 		
 				

@@ -62,7 +62,7 @@ public class NumericVariables {
 			int j17=2;
 			System.out.println(7%3 + j17++ + (j17-2));
 		//18
-			
+			  
 			
 			
 			

@@ -9,7 +9,7 @@ public class whatsMyName {
 		String fName = newScanner.next();
 		System.out.println("What's your last name?");
 		String lName = newScanner.next();
-		System.out.println("Your full name is " + fName + " " + lName);
+		System.out.println("Your full name  " + fName + " " + lName);
 		
 		
 		

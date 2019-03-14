@@ -16,10 +16,7 @@ public class Exercises {
 		boolean gus = (x>0) && (c==v);
 		boolean r = z ==x;
 		System.out.println(z!=x);
-		
-		int a1 = 2;
-		int b2 = 3;
-		boolean kDog = !(a1==b2);
+	
 		
 		
 		

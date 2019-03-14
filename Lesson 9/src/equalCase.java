@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class fiveNumbers {
+public class equalCase {
 
 	public static void main(String[] args) {
 		

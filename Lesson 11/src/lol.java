@@ -17,14 +17,14 @@ public class lol {
 	String g7 = bot.nextLine();
 	String g8 = bot.nextLine();
 	
-	int gr1;
-	int gr2;
-	int gr3;
-	int gr4;
-	int gr5;
-	int gr6;
-	int gr7;
-	int gr8;
+	int gr1 = 0;
+	int gr2 = 0;
+	int gr3 = 0;
+	int gr4 = 0;
+	int gr5 = 0;
+	int gr6 = 0;
+	int gr7 = 0;
+	int gr8 = 0;
 	
 	if (g1.equalsIgnoreCase("A") || g1.equalsIgnoreCase("A-") || g1.equalsIgnoreCase("A+")){gr1 = 4;}
 	else if (g1.equalsIgnoreCase("B") || g1.equalsIgnoreCase("B-") || g1.equalsIgnoreCase("B+")){gr1 = 3;} 
@@ -69,6 +69,7 @@ public class lol {
 	
 	System.out.println("Your unweighted GPA for this term is " + ((gr1+gr2+gr3+gr4+gr5+gr6+gr7+gr8)/8));
 	
+	bot.close();
 
 
 

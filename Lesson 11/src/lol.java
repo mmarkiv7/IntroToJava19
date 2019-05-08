@@ -26,8 +26,12 @@ public class lol {
 	int gr7 = 0;
 	int gr8 = 0;
 	
-	if (g1.equalsIgnoreCase("A") || g1.equalsIgnoreCase("A-") || g1.equalsIgnoreCase("A+")){gr1 = 4;}
-	else if (g1.equalsIgnoreCase("B") || g1.equalsIgnoreCase("B-") || g1.equalsIgnoreCase("B+")){gr1 = 3;} 
+	if (g1.equalsIgnoreCase("A") || g1.equalsIgnoreCase("A-") || g1.equalsIgnoreCase("A+")){
+		gr1 = 4;
+	}
+	else if (g1.equalsIgnoreCase("B") || g1.equalsIgnoreCase("B-") || g1.equalsIgnoreCase("B+")){
+		gr1 = 3;
+	} 
 	else if (g1.equalsIgnoreCase("C") || g1.equalsIgnoreCase("C-") || g1.equalsIgnoreCase("C+")){gr1 = 2;} 
 	else if (g1.equalsIgnoreCase("F")){gr1 = 0;}
 	

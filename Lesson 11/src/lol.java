@@ -4,6 +4,12 @@ public class lol {
 	
 	public static void main(String []args){
 		
+		int counter = 0;
+		 
+	
+			
+		
+		
 	Scanner bot = new Scanner(System.in);
 	
 	System.out.println("Enter first grade then press enter, then 2nd grade and so on");
@@ -136,8 +142,10 @@ public class lol {
 	
 	System.out.println("Your unweighted GPA for this term is " + ((gr1+gr2+gr3+gr4+gr5+gr6+gr7+gr8)/8));
 	
-	bot.close();
-
+	
+	
+	
+		
 
 
 	}

@@ -1,14 +1,30 @@
 import java.util.Scanner;
-
+import java.io.File;
+import java.io.IOException;
 public class Array {
 		
-		public static void main(String []args){
+		public static void main(String []args) throws IOException{
 			
 	
-		Scanner bot = new Scanner(System.in);
+			
+			
+			
 		
+		File file = new File("grades.txt");
+		
+		Scanner bot2 = new Scanner(file);
+		
+		while (bot2.hasNextLine()) {
+            int i = bot2.nextInt();
+            System.out.println(i);
+		
+			
+			
+		Scanner bot = new Scanner(System.in);
 		System.out.println("Enter your first grade");
 		String sGrade = bot.nextLine();
+		String sGrade2 = bot.nextLine();
+		
 		
 		
 		String[] grades = {"A", "A+", "A-", "B", "B+", "B-", "C", "C+", "C-", "D", "D+", "D-", "F"};
@@ -23,17 +39,15 @@ public class Array {
 			sl = gr[4];	
 		}
 		
+		else if (grades[0].equalsIgnoreCase(sGrade2)){
+			
+		}
+			
+			
+			
+		}
 		
-		
-		
-		
-		
-			
-			
-			
-			
-			
-			
+
 			
 		}
 		

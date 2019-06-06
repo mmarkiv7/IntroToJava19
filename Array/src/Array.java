@@ -4,19 +4,16 @@ import java.io.IOException;
 public class Array {
 		
 		public static void main(String []args) throws IOException{
-			
-	
-			
-			
-			
 		
-		File file = new File("grades.txt");
+			
+		File file = new File("H:\\grades.txt\\");
 		
 		Scanner bot2 = new Scanner(file);
 		
-		while (bot2.hasNextLine()) {
+		
+		while (bot2.hasNextLine());
             int i = bot2.nextInt();
-            System.out.println(i);
+            System.out.println(i); 
 		
 			
 			
@@ -51,4 +48,4 @@ public class Array {
 			
 		}
 		
-}
+
